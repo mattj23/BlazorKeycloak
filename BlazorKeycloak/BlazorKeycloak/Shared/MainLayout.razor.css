@@ -8,8 +8,12 @@
     flex: 1;
 }
 
+.system-name {
+    font-size: 120%;
+}
+
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, #a71d2a 0%, #5d2323 70%);
 }
 
 .top-row {

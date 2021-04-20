@@ -1,7 +1,13 @@
 <AuthorizeView>
     <Authorized>
-        <strong>User: @context.User.Identity.Name</strong>
-        <a href="signout">Sign Out</a>
+        <div class="d-flex justify-content-end">
+            <div class="p-2 text-nowrap">
+                <strong>User: @context.User.Identity.Name</strong>
+            </div>
+            <div class="p-2">
+                <a href="signout">Sign Out</a>
+            </div>
+        </div>
     </Authorized>
     <NotAuthorized>
         <a href="signin?redirectUri=/">Sign In</a>
